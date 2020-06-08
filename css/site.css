@@ -1,0 +1,113 @@
+/* Feuille de CSS qui s'applique à toutes les pages du site */
+
+@font-face
+{
+	font-family: 'Helvetica 43 Light Extended';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Helvetica 43 Light Extended'), url('../police/HelveticaNeue-LightExt.woff') format('woff');
+}
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background: url("../images/header_wallpaper.png") no-repeat top, url("../images/footer_wallpaper.png") no-repeat bottom, url("../images/website_wallpaper.png") fixed;
+	font-family: 'Helvetica 43 Light Extended', Arial, serif;
+}
+#bloc_page
+{
+	width: 1688px;
+	margin: auto;
+}
+#menu_partie_haute
+{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	width: 90%;
+	margin: auto;
+	padding: 30px;
+}
+#menu1
+{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.logo_du_site
+{
+	border-radius: 100px;
+	position: relative;
+}
+.bouton_menu1
+{
+	font-size: 2.5em;
+	color: white;
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 60px;
+	background-color: black;
+	padding: 11px;
+	border: 3px white;
+	border-radius: 36px;
+	box-shadow: 3px 3px 3px gray;
+}
+#menu2
+{
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: black;
+}
+#menu2 ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: 0px;
+	width: 95%;
+}
+#menu2 li
+{
+	font-size: 1.25em;
+	color: white;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 60px;
+}
+#menu1 a, #menu2 a
+{
+	text-decoration: none;
+}
+.bouton_menu1:hover
+{
+	background-color: white;
+	color: brown;
+}
+#menu2 li:hover
+{
+	background-color: white;
+	color: brown;
+}
+footer
+{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin: 30px 0px;
+}
+footer img
+{
+	border-radius: 10px;
+}
+.logo_du_site {
+
+width: 150px;
+height: 150px;
+}

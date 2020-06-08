@@ -1,0 +1,59 @@
+
+#contenu_page
+{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	padding: 40px 0px;
+	background: white;
+	width: 100%;
+	height: 619px;
+}
+#contenu_fond
+{
+	display: flex;
+	flex-wrap: nowrap;
+	background: url("../images/devis_wallpaper.jpg") no-repeat center;
+	border-radius: 18px;
+	position: absolute;
+	width: 1628px;
+	height: 619px;
+}
+#petit_mot
+{
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: brown;
+	border: 3px solid white;
+	border-radius: 18px;
+	box-shadow: 5px 5px 5px gray;
+	text-align: justify;
+	color: white;
+	font-size: 1.25em;
+	width: 40%;
+	height: 350px;
+	padding: 0 18px 18px 18px;
+	margin-left: 120px;
+	margin-top: 150px;
+}
+#petit_mot a
+{
+	text-decoration: none;
+	color: white;
+}
+#petit_mot a:hover
+{
+	text-decoration: underline;
+}
+#petit_mot span
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+.logo_du_site {
+
+width: 150px;
+height: 150px;
+}
